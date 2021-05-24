@@ -1,0 +1,49 @@
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3;
+  box-shadow: 0 0 0 .2rem #42dca3;
+}
+
+.btn-primary-login {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3
+}
+
+.btn-primary-login:hover {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3
+}
+
+
+.btn-primary.disabled-login, .btn-primary-login:disabled {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3
+}
+
+.btn-primary-login:not(:disabled):not(.disabled).active, .btn-primary-login:not(:disabled):not(.disabled):active, .show>.btn-primary-login.dropdown-toggle {
+  color: #fff;
+  background-color: #42dca3;
+  border-color: #42dca3
+}
+
+.btn-primary-login:not(:disabled):not(.disabled).active:focus, .btn-primary-login:not(:disabled):not(.disabled):active:focus, .show>.btn-primary-login.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem #42dca3
+}
+.detail-color-login {
+  color:#42dca3
+
+}
+.swatch-preview {
+  order-top: 1px solid rgba(0,0,0,.1);
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        display: block;
+        float: left;
+        height: 60px;
+        width: 100%;
+        margin: 0 .8em .5em 0;
+}
+
